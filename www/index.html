@@ -31,7 +31,7 @@
         angular.module('app', ['onsen']);
                 function onLoad() {
                         alert('hii');
-			document.addEventListener("deviceready", onDeviceReady, false);
+			document.addEventListener("deviceready", odr, false);
                 }
  function onDeviceReady() {
         var element = document.getElementById('deviceProperties');
@@ -42,6 +42,21 @@
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
     }
+    
+    function odr()
+{
+alert("device ready");
+var cordovaVersion=device.cordova;
+var phoneModel=device.model;
+var phonePlatform=device.platform;
+var phoneUUID=device.uuid;
+var osVersion=device.version;
+$("#cordovaVersion").html(cordovaVersion);
+$("#phoneModel").html(phoneModel);
+$("#phonePlatform").html(phonePlatform);
+$("#phoneUUID").html(phoneUUID);
+$("#osVersion").html(osVersion);
+}
     function next()
     {
     setInterval(function(){
@@ -126,6 +141,30 @@
       <p id="deviceProperties">Loading device properties...</p>
 
    <center> <font size="5" color="#8F2122"> <b>!!! श्री. गणेशाय नमः !!!</b></font> </center>
+     
+     
+     <div class="bar bar-header bar-light">
+<h1 class="title">Device Information</h1>
+</div>
+<br/><br/>
+<ul class="list list-inset">
+<div class="item">
+Cordova Version <p id="cordovaVersion" class="item-note"></p>
+</div>
+<div class="item">
+Phone Model <p id="phoneModel" class="item-note"></p>
+</div>
+<div class="item">
+Platform <p id="phonePlatform" class="item-note"></p>
+</div>
+<div class="item">
+UUID <p id="phoneUUID" class="item-note"></p>
+</div>
+<div class="item">
+OS Version <p id="osVersion" class="item-note"></p>
+</div>
+</div>
+     
      
  </body>
  </html>
