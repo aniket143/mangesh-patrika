@@ -31,9 +31,10 @@
         angular.module('app', ['onsen']);
                 function onLoad() {
                         alert('hii');
-			document.addEventListener("deviceready", odr, false);
+			document.addEventListener("deviceready", onDeviceReady, false);
                 }
  function onDeviceReady() {
+ 	alert("welcome");
         var element = document.getElementById('deviceProperties');
         element.innerHTML = 'Device Name: '     + device.name     + '<br />' +
                             'Device Model: '    + device.model    + '<br />' +
