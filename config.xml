@@ -52,6 +52,10 @@ Wedding invitation card    </description>
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
 
+<feature name="Device">
+    <param name="android-package" value="org.apache.cordova.device.Device" />
+</feature>
+
          <feature name="http://api.phonegap.com/1.0/network"/>
          <feature name="http://api.phonegap.com/1.0/device"/>
     <feature name="Notification">
