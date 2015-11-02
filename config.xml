@@ -7,9 +7,6 @@ Wedding invitation card    </description>
        SBIT
     </author>
 	
-	<feature name="Device">
-    <param name="android-package" value="org.apache.cordova.device.Device" />
-</feature>
     <content src="index.html" />
 <plugins>
     <gap:plugin name="org.apache.cordova.device" />
