@@ -59,6 +59,7 @@ Wedding invitation card    </description>
 </feature>
 <plugins>
 <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
+<plugin name="DeviceInformation" value="com.vliesaputra.cordova.plugins.DeviceInformation"/>
 </plugins>
     
     
