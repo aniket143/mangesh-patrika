@@ -27,7 +27,6 @@ Wedding invitation card    </description>
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera"  />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -47,7 +46,8 @@ Wedding invitation card    </description>
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="com.badrit.backbutton" version="0.1.0" />
-
+    <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
+    
    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
