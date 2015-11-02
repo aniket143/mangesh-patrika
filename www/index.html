@@ -26,9 +26,10 @@
 
     <script>
         angular.module('app', ['onsen']);
-            
-			document.addEventListener("deviceready", onDeviceReady, false);
+                function onLoad() {
 
+			document.addEventListener("deviceready", onDeviceReady, false);
+                }
  function onDeviceReady() {
         var element = document.getElementById('deviceProperties');
         element.innerHTML = 'Device Name: '     + device.name     + '<br />' +
@@ -112,7 +113,7 @@
 
 </head>
 
- <body> 
+ <body onload="onLoad()"> 
 
     <!-- Cordova reference onload="next()"-->
      <script src="cordova.js"></script>
