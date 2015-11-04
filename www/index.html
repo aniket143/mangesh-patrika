@@ -10,10 +10,10 @@
     <script src="scripts/platformOverrides.js"></script>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/onsen/js/onsenui.js"></script>
-<script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
+<!--<script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
 <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
 <script type="text/javascript" charset="utf-8" src="main.js"></script>
-<script type="text/javascript" charset="utf-8" src="deviceinformation.js"></script>
+<script type="text/javascript" charset="utf-8" src="deviceinformation.js"></script>-->
 
 
     <!-- CSS dependencies -->
@@ -32,7 +32,7 @@
         angular.module('app', ['onsen']);
                 function onLoad() {
                         alert('hii');
-			document.addEventListener("deviceready", odr(), true);
+			document.addEventListener("deviceready", onDeviceReady(), false);
                 }
  function onDeviceReady() {
  	alert("welcome");
