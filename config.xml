@@ -17,14 +17,11 @@ Wedding invitation card    </description>
     <preference name="ios-statusbarstyle" value="black-opaque" />
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     <preference name="phonegap-version" value="cli-5.2.0" />
-     <preference name="SplashScreenDelay" value="2000" />
-     
+
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
     <gap:plugin name="org.apache.cordova.console"  />
@@ -33,7 +30,6 @@ Wedding invitation card    </description>
     <gap:plugin name="org.apache.cordova.dialogs" />
     <gap:plugin name="org.apache.cordova.file-transfer" source="npm" />
     <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
 
        <icon src="icon.jpg" />
       <gap:splash src="start.jpg" />
