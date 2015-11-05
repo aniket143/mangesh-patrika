@@ -49,7 +49,7 @@ Wedding invitation card    </description>
     <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.5.0" />
        
        <icon src="icon.jpg" />
-      <gap:splash src="images/start.jpg" />
+      <gap:splash src="start.jpg" />
    <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
