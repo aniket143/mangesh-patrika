@@ -8,7 +8,6 @@ Wedding invitation card    </description>
     </author>
 	    <content src="index.html" />
     <preference name="fullscreen" value="false" />
-    <preference name="android-windowSoftInputMode" value="stateVisible" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -29,21 +28,14 @@ Wedding invitation card    </description>
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
     <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera"  />
-    <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console"  />
-    <gap:plugin name="org.apache.cordova.contacts"  />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-motion" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
     <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.file" />
     <gap:plugin name="org.apache.cordova.file-transfer" source="npm" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
     <gap:plugin name="org.apache.cordova.media" />
-    <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="com.badrit.backbutton" version="0.1.0" />
@@ -64,10 +56,6 @@ Wedding invitation card    </description>
     <feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
 </feature>
-<plugins>
-<plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
-<plugin name="DeviceInformation" value="com.vliesaputra.cordova.plugins.DeviceInformation"/>
-</plugins>
     
     
 </widget>
