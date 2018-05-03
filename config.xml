@@ -22,7 +22,6 @@ Wedding invitation card    </description>
     <preference name="android-installLocation" value="auto" />
 
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
     <gap:plugin name="org.apache.cordova.console"  />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
