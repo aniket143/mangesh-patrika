@@ -1,7 +1,11 @@
 # HTML
-- task: Npm@1
+- task: AzureWebApp@1
   inputs:
-    command: 'install'
+    appType: 'webAppLinux'
+    appName: 
+    deployToSlotOrASE: true
+    slotName: 'production'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Archive your static HTML project and save it with the build record.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
